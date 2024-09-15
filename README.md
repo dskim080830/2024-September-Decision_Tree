@@ -1,5 +1,5 @@
 # 의사 결정 나무 알고리즘 과제
-`
+```
 // 필요한 라이브러리 가져오기
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -32,4 +32,4 @@ plt.show()
 // 모델 정확도 계산
 accuracy = clf.score(X_test, y_test)
 print(f"Test Accuracy: {accuracy:.2f}")
-`
+```
