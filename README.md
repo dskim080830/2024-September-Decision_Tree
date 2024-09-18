@@ -34,6 +34,6 @@ tree.plot_tree(clf, feature_names=X.columns, class_names=clf.classes_, filled=Tr
 plt.show()
 
 7. 학습한 데이터를 사용하여 테스트를 해보고 그것을 통해 정확도를 출력합니다.
-accuracy = clf.score(X_test, y_test)
-print(f"Test Accuracy: {accuracy:.2f}")
+accuracy = clf.score(X_test, y_test) // 정확도 분석
+print(f"Test Accuracy: {accuracy:.2f}") // 정확도 출력
 ```
