@@ -14,7 +14,7 @@ uploaded = files.upload()
 df = pd.read_csv('drug200.csv')
 2. csv 파일에 있는 데이터를 불러와 출력해봅니다.
 print(df.head())
-3. 의사결정나무를 구현하기 위해 레이블을 설정합니다.
+3. 의사결정나무를 구현하기 위해 csv 파일에 적혀 있는 것을(Age, Sex, BP, Cholestrol, Na_to_K)x, y의 레이블로 설정합니다.
 X = df[['Age', 'Sex', 'BP', 'Cholesterol', 'Na_to_K']]  
 y = df['Drug'] 
 
